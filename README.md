@@ -1,7 +1,7 @@
-# Iran-TelegramBypass
+# Iran-Telegram API Bypass
 
 
-Bypassing Telegram API Filtering on Iranian Servers
+**Bypassing Telegram API Filtering on Iranian Servers**
 
 With the help of a Cloudflare Worker, instead of sending requests directly to the Telegram server, we route them through our Worker first. The Worker then forwards the request to Telegram and sends the response back to us. It's the easiest and cost-free way to bypass this filtering.
 
